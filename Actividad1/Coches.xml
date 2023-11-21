@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gestion>
+    <empleados>
+        <empleado id="001">
+            <nombre>Victor</nombre>
+            <apellido>Kolev Itzkova</apellido>
+            <dni>26964788K</dni>
+        </empleado>
+        <empleado id="002">
+            <nombre>Marc</nombre>
+            <apellido>Meola Escriva</apellido>
+            <dni>12345678M</dni>
+        </empleado>
+    </empleados>
+    <coches>
+        <coche>
+            <marca>Toyota</marca>
+            <modelo>Corolla</modelo>
+            <matricula>1234BCD</matricula>
+            <conductor>001</conductor>
+            <conductor>002</conductor>
+        </coche>
+        <coche>
+            <marca>Seat</marca>
+            <modelo>Leon</modelo>
+            <matricula>9876ZXW</matricula>
+            <conductor>002</conductor>
+        </coche>
+    </coches>
+</gestion>

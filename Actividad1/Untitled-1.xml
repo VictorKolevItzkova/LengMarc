@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<big><red>Hola a todos. ¿Como estais?</red>
+<persona>
+    <nombre>Pepe</nombre>
+    <telefono>634768311</telefono>
+    <cuentabancaria>ES42525</cuentabancaria>
+    <responsable/>
+    <codigo>ABCD&lt;123</codigo>
+</persona>
+
+<persona>
+    <nombre>Juana</nombre>
+    <telefono>634768311</telefono>
+    <cuentabancaria>ES42525</cuentabancaria>
+    <codigo>ABCD&gt;123</codigo>
+</persona></big>

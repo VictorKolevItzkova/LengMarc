@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curso>
+    <alumnos>
+        <alumno>
+            <nombre>Victor</nombre>
+            <apellido>Kolev</apellido>
+            <nia>12345678</nia>
+            <notas>
+                <modulo codigo="123456">
+                    <nota>9</nota>
+                </modulo>
+            </notas>
+        </alumno>
+        <alumno>
+            <nombre>Marc</nombre>
+            <apellido>Meola</apellido>
+            <nia>98765432</nia>
+            <notas>
+                <modulo codigo="98765">
+                    <nota>8</nota>
+                </modulo>
+            </notas>
+        </alumno>
+    </alumnos>
+    <modulos>
+        <modulo codigo="123456">
+            <nombre>Lenguaje de Marcas</nombre>
+            <profesor>Joan Vidal</profesor>
+        </modulo>
+        <modulo codigo="98765">
+            <nombre>Programacion</nombre>
+            <profesor>Raúl Espinosa</profesor>
+        </modulo>
+    </modulos>
+</curso>

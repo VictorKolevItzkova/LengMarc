@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contabilizacion>
+    <productos>
+        <producto codigo="1234">
+            <codigo>1234</codigo>
+            <nombre>Balón Futbol</nombre>
+            <precio_actual>15</precio_actual>
+            <descripcion>Un balón para jugar al fútbol con tus amigos</descripcion>
+        </producto>
+        <producto codigo="5678">
+            <codigo>5678</codigo>
+            <nombre>Balón Basquet</nombre>
+            <precio_actual>20</precio_actual>
+            <descripcion>Un balón para jugar al basket con tus amigos o familiares</descripcion>
+        </producto>
+        <producto codigo="9874">
+            <codigo>9874</codigo>
+            <nombre>Pala de Tenis</nombre>
+            <precio_actual>30</precio_actual>
+            <descripcion>Una pala de tenis para jugar al tenis con tus amigos</descripcion>
+        </producto>
+    </productos>
+    <clientes>
+        <cliente>
+            <nombre_cliente>Paco León</nombre_cliente>
+            <ventas>
+                <producto_vendido codigo="1234">
+                    <fecha_venta>15/09/2023</fecha_venta>
+                    <precio_momento>12</precio_momento>
+                </producto_vendido>
+                <producto_vendido codigo="5678">
+                    <fecha_venta>28/07/2023</fecha_venta>
+                    <precio_momento>15</precio_momento>
+                </producto_vendido>
+            </ventas>
+        </cliente>
+        <cliente>
+            <nombre_cliente>David Suarez</nombre_cliente>
+            <ventas>
+                <producto_vendido codigo="9874">
+                    <fecha_venta>01/08/2023</fecha_venta>
+                    <precio_momento>35</precio_momento>
+                </producto_vendido>
+            </ventas>
+        </cliente>
+        <cliente>
+            <nombre_cliente>Ernesto Sevilla</nombre_cliente>
+            <ventas>
+                <producto_vendido codigo="5678">
+                    <fecha_venta>20/09/2023</fecha_venta>
+                    <precio_momento>20</precio_momento>
+                </producto_vendido>
+            </ventas>
+        </cliente>
+    </clientes>
+</contabilizacion>

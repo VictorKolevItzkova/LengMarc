@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gestion>
+    <personas>
+        <persona id="3" alta="Si">
+            <nombre>Victor Kolev</nombre>
+            <telefono>634768311</telefono>
+            <direccion>Conca La Safor</direccion>
+        </persona>
+        <persona>
+            <nombre>Paco Verdú</nombre>
+            <telefono>123456789</telefono>
+            <direccion>La Paleta</direccion>
+        </persona>
+    </personas>
+    <coches>
+        <coche>
+            <d.compra>3-2-2010</d.compra>
+            <modelo>Toyota Corolla</modelo>
+            <matricula>1234BCD</matricula>
+            <conductor></conductor>
+        </coche>
+    </coches>
+</gestion>
